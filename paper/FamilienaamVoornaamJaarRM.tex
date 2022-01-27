@@ -1,0 +1,129 @@
+%==============================================================================
+% Sjabloon onderzoeksvoorstel bachelorproef
+%==============================================================================%
+% Compileren in TeXstudio:
+%
+% - Zorg dat Biber de bibliografie compileert (en niet Biblatex)
+%   Options > Configure > Build > Default Bibliography Tool: "txs:///biber"
+% - F5 om te compileren en het resultaat te bekijken.
+% - Als de bibliografie niet zichtbaar is, probeer dan F5 - F8 - F5
+%   Met F8 compileer je de bibliografie apart.
+%
+% Als je JabRef gebruikt voor het bijhouden van de bibliografie, zorg dan
+% dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
+
+\documentclass{hogent-article}
+
+\usepackage{lipsum} % Voor vultekst
+
+%------------------------------------------------------------------------------
+% Metadata over het artikel
+%------------------------------------------------------------------------------
+
+%---------- Titel & auteur ----------------------------------------------------
+
+% TODO: (fase 2) geef werktitel van je eigen voorstel op
+\PaperTitle{Titel van het artikel}
+% Dit is typisch de opdracht en het vak waarvoor dit artikel geschreven is, bv.
+% ``Verslag onderzoeksproject Onderzoekstechnieken 2018-2019''
+\PaperType{Paper Research Methods: onderzoeksvoorstel}
+
+% TODO: (fase 1) vul je eigen naam in als auteur, geef ook je emailadres mee!
+\Authors{Steven Stevens\textsuperscript{1}, Jan Janssens\textsuperscript{2}} % Authors
+
+% Als het hier effectief gaat om een voorstel voor de bachelorproef, dan ben je
+% hier verplicht de naam van je co-promotor in te vullen. Zoniet, dan kan je het
+% leeg laten.
+\CoPromotor{}
+
+% Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
+% indien van toepassing ook van de co-promotor).
+\affiliation{
+  \textsuperscript{1} \href{mailto:steven.stevens.u1234@student.hogent.be}{steven.stevens.u1234@student.hogent.be}}
+\affiliation{
+  \textsuperscript{2} \href{mailto:jan.janssens.u4321@student.hogent.be}{mailto:jan.janssens.u4321@student.hogent.be}
+}
+
+%---------- Abstract ----------------------------------------------------------
+
+\Abstract{% TODO: (fase 6)
+Hier schrijf je de samenvatting van je artikel, als een doorlopende tekst van één paragraaf.
+
+Bij de sleutelwoorden geef je het onderzoeksdomein (= specialisatierichting in de opleiding), samen met andere sleutelwoorden die je werk beschrijven.
+}
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+% TODO: (fase 2) Vul de sleutelwoorden aan.
+
+% Het eerste sleutelwoord beschrijft het onderzoeksdomein. Je kan kiezen uit
+% deze lijst:
+%
+% - Mobiele applicatieontwikkeling
+% - Webapplicatieontwikkeling
+% - Applicatieontwikkeling (andere)
+% - Systeembeheer
+% - Netwerkbeheer
+% - Mainframe
+% - E-business
+% - Databanken en big data
+% - Machineleertechnieken en kunstmatige intelligentie
+% - Andere (specifieer)
+%
+% De andere sleutelwoorden zijn vrij te kiezen.
+
+\Keywords{Onderzoeksdomein; Sleutelwoord1; Sleutelwoord2; Sleutelwoord3}
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+
+%---------- Titel, inhoud -----------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+\section{Inleiding}
+
+% TODO: (fase 2) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
+
+\lipsum[1-3]
+
+\section{Overzicht literatuur}
+
+% TODO: (fase 4) schrijf de literatuurstudie uit en gebruik waar gepast referenties naar de vakliteratuur.
+
+% Refereren naar de literatuur kan met:
+% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
+% \textcite{BIBTEXKEY} -> Auteur (jaartal)
+Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
+
+\lipsum[4-9]
+
+\section{Methodologie}
+
+% TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+
+\lipsum[10-12]
+
+\section{Verwachte conclusies}
+
+% TODO: (fase 6) beschrijf wat je verwacht uit je onderzoek en waarom (bv. volgens je literatuuronderzoek is softwarepakket A het meest gebruikte en denk je dat het voor deze casus ook het meest geschikt zal zijn). Natuurlijk kan je niet in de toekomst kijken en mag je geen alternatieve mogelijkheden uitsluiten. In de praktijk gebeurt het ook vaak dat een onderzoek tot verrassende resultaten leidt, dat maakt het proces nog interessanter!
+
+\lipsum[14-18]
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: (fase 4) de gerefereerde werken moeten in BibTeX-bestand
+% bibliografie.bib voorkomen. Gebruik JabRef om je bibliografie bij te
+% houden.
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}
