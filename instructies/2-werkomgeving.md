@@ -8,16 +8,16 @@ Dit heb je nodig:
 
 - Een Git client ([Git CLI](https://git-scm.com), [Gitkraken](https://git-scm.com), ...)
 - Een LaTeX-distributie:
-    - Windows: [MikTeX](https://miktex.org) of [TeX live](https://www.tug.org/texlive/) (aanbevolen in combinatie met VS Code)
-    - MacOS X: [MacTeX](https://www.tug.org/mactex/)
-    - Linux: [TeX live](https://www.tug.org/texlive/))
+  - Windows: [MikTeX](https://miktex.org) of [TeX live](https://www.tug.org/texlive/) (aanbevolen in combinatie met VS Code)
+  - MacOS X: [MacTeX](https://www.tug.org/mactex/)
+  - Linux: [TeX live](https://www.tug.org/texlive/))
 - Een LaTeX IDE of editor met ondersteuning voor LaTeX:
-    - [Texstudio](https://www.texstudio.org) is een volledige IDE, specifiek voor LaTeX
-    - [Visual Studio Code](https://code.visualstudio.com) heeft ook zeer goede ondersteuning, maar vraagt wel wat werk [om goed te configureren](https://dev.to/ucscmozilla/how-to-create-and-compile-latex-documents-on-visual-studio-code-3jbk)
+  - [Texstudio](https://www.texstudio.org) is een volledige IDE, specifiek voor LaTeX
+  - [Visual Studio Code](https://code.visualstudio.com) heeft ook zeer goede ondersteuning, maar vraagt wel wat werk [om goed te configureren](https://dev.to/ucscmozilla/how-to-create-and-compile-latex-documents-on-visual-studio-code-3jbk)
 - [JabRef](https://www.jabref.org), een bibliografische databank specifiek voor LaTeX
 - Een editor met ondersteuning voor Markdown is ook handig
-    - [Visual Studio Code](https://code.visualstudio.com) heeft uitstekende ondersteuning (o.a. HTML preview met `Ctrl+Shift+V`)
-    - [Typora](https://typora.io)
+  - [Visual Studio Code](https://code.visualstudio.com) heeft uitstekende ondersteuning (o.a. HTML preview met `Ctrl+Shift+V`)
+  - [Typora](https://typora.io)
 
 ### Windows
 
@@ -121,15 +121,15 @@ LaTeX bestaat al enkele decennia. Waar het vroeger enkel mogelijk was om in een 
 Controleer deze instellingen via menu-item *Options > Configure TeXstudio*
 
 - Build:
-    - Default Compiler: **XeLaTeX** (UTF-8 compatibel, mogelijkheid om TTF-lettertypes te gebruiken, enz.) in plaats van PDFLaTeX (enkel ASCII, PostScript lettertypes, enz.)
-    - Default Bibliography tool: **`biber`** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geep APA-referenties, ...)
+  - Default Compiler: **XeLaTeX** (UTF-8 compatibel, mogelijkheid om TTF-lettertypes te gebruiken, enz.) in plaats van PDFLaTeX (enkel ASCII, PostScript lettertypes, enz.)
+  - Default Bibliography tool: **`biber`** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geep APA-referenties, ...)
 - Commands:
-    - XeLaTeX: `xelatex -synctex=1 -interaction=nonstopmode -shell-escape %.tex` (voeg de optie `-shell-escape` toe)
+  - XeLaTeX: `xelatex -synctex=1 -interaction=nonstopmode -shell-escape %.tex` (voeg de optie `-shell-escape` toe)
 - Editor:
-    - Indentation mode: *Indent and Unindent Automatically*
-    - Replace Indentation Tab by Spaces: *Aanvinken*
-    - Replace Tab in Text by spaces: *Aanvinken*
-    - Replace Double Quotes: *English Quotes: ``''*
+  - Indentation mode: *Indent and Unindent Automatically*
+  - Replace Indentation Tab by Spaces: *Aanvinken*
+  - Replace Tab in Text by spaces: *Aanvinken*
+  - Replace Double Quotes: *English Quotes: ``''*
 
 Om te testen of TeXStudio goed werkt, kan je het sjabloon voor de paper ( `paper/FamilienaamVoornaamJaarRM.tex`) gebruiken. Verander eerste de bestandsnaam in je eigen naam (familienaam eerst) en het jaartal (bv. `DeSmetJan2022RM.tex`).
 
@@ -154,9 +154,14 @@ Binnen de LaTeX-wereld is er een apart subsysteem voor het correct opmaken van e
 - Kies in het menu voor *Options > Preferences > General* en kies onderaan voor de optie "Default bibliography mode" voor "biblatex".
 - Kies in het *Preferences*-venster voor de categorie *File* en geef een directory op voor het bijhouden van PDFs van de gevonden bronnen onder *Main file directory*. Het is heel interessant om de gevonden artikels te downloaden en onder die directory bij te houden. Nog beter is om als naam van het bestand de BibTeX key te nemen (typisch naam van de eerste auteur + jaartal, bv. Knuth1998.pdf). Je kan het bestand dan makkelijk openen vanuit Jabref.
 
+## Onderwerp uitschrijven
+
+Als je in de vorige fase een definitief onderwerp gekozen hebt, kan je de inleiding van de paper schrijven in het LaTeX-document in de directory `paper/` (waarvan je de naam zou moeten aangepast hebben naar je eigen naam).
+
 ## Checklist
 
 - [ ] De nodige software is geïnstalleerd.
 - [ ] De basisinstellingen van Git zijn waar nodig aangepast. Bij een commit naar Github is duidelijk wie de auteur is.
 - [ ] TeXstudio of VS Code zijn geconfigureerd voor gebruik.
 - [ ] Het sjabloon compileert zonder fouten, in de PDF is ook de (voorbeeld-)bibliografie opgenomen.
+- [ ] De inleiding van jouw onderwerp is geschreven.
