@@ -1,11 +1,13 @@
 # Research Methods - paper
 
-Deze Github-repository bevat al de nodige informatie om de paper die je voor het vak Research Methods moet voorbereiden en schrijven.
+Deze Github-repository bevat al de nodige informatie i.v.m. de paper die je voor het vak Research Methods moet voorbereiden en schrijven.
 
-Het examencijfer voor het vak is voor 100% gebaseerd op deze paper, dus het is belangrijk dat je de instructies volgt en de taken zo goed mogelijk uitvoert. Door het werk op de te delen in verschillende fasen met een concreet doel, wordt het hopelijk voldoende haalbaar om dit te realiseren. Hieronder vind je een kort overzicht van de fasen, telkens met een link naar een meer gedetailleerde toelichting.
+Het examencijfer voor het vak is voor 100% gebaseerd op deze paper, dus het is belangrijk dat je de instructies volgt en de taken zo goed mogelijk uitvoert. Tijdens de lessen krijg je ook de nodige uitleg om hiermee aan de slag te gaan.
 
-1. [Opzetten werkomgeving](instructies/1-werkomgeving.md)
-2. [Onderwerp kiezen](instructies/2-onderwerp.md)
+Door het werk op de te delen in verschillende fasen met een concreet doel, wordt het hopelijk voldoende haalbaar om dit te realiseren. Hieronder vind je een kort overzicht van de fasen, telkens met een link naar een meer gedetailleerde toelichting.
+
+1. [Onderwerp kiezen](instructies/1-onderwerp.md)
+2. [Opzetten LaTeX werkomgeving](instructies/2-werkomgeving.md)
 3. [Vakliteratuur raadplegen](instructies/3-vakliteratuur.md)
 4. [Literatuurstudie](instructies/4-literatuurstudie.md)
 5. [De methodologie uitwerken](instructies/5-methodologie.md)

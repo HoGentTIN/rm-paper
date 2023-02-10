@@ -1,4 +1,4 @@
-# Fase 1. Opzetten werkomgeving
+# Fase 2. Opzetten LaTeX-werkomgeving
 
 In deze cursus maak je gebruik van verschillende softwarepakketten en tools. In deze fase installeren we de nodige applicaties en maken de nodige configuratie-aanpassingen om efficiënt te kunnen werken.
 
@@ -8,16 +8,20 @@ Dit heb je nodig:
 
 - Een Git client ([Git CLI](https://git-scm.com), [Gitkraken](https://git-scm.com), ...)
 - Een LaTeX-distributie:
-  - Windows: [MikTeX](https://miktex.org) of [TeX live](https://www.tug.org/texlive/) (aanbevolen in combinatie met VS Code)
-  - MacOS X: [MacTeX](https://www.tug.org/mactex/)
-  - Linux: [TeX live](https://www.tug.org/texlive/))
+    - Windows: [MikTeX](https://miktex.org) of [TeX live](https://www.tug.org/texlive/) (aanbevolen in combinatie met VS Code)
+    - MacOS X: [MacTeX](https://www.tug.org/mactex/)
+    - Linux: [TeX live](https://www.tug.org/texlive/))
 - Een LaTeX IDE of editor met ondersteuning voor LaTeX:
-  - [Texstudio](https://www.texstudio.org) is een volledige IDE, specifiek voor LaTeX
-  - [Visual Studio Code](https://code.visualstudio.com) heeft ook zeer goede ondersteuning, maar vraagt wel wat werk [om goed te configureren](https://dev.to/ucscmozilla/how-to-create-and-compile-latex-documents-on-visual-studio-code-3jbk)
+    - [Texstudio](https://www.texstudio.org) is een volledige IDE, specifiek voor LaTeX
+    - [Visual Studio Code](https://code.visualstudio.com) heeft ook zeer goede ondersteuning, maar vraagt wel wat werk [om goed te configureren](https://dev.to/ucscmozilla/how-to-create-and-compile-latex-documents-on-visual-studio-code-3jbk)
 - [JabRef](https://www.jabref.org), een bibliografische databank specifiek voor LaTeX
 - Een editor met ondersteuning voor Markdown is ook handig
-  - [Visual Studio Code](https://code.visualstudio.com) heeft uitstekende ondersteuning (o.a. HTML preview met `Ctrl+Shift+V`)
-  - [Typora](https://typora.io)
+    - [Visual Studio Code](https://code.visualstudio.com) heeft uitstekende ondersteuning (o.a. HTML preview met `Ctrl+Shift+V`)
+    - [Typora](https://typora.io)
+- [De lettertypes](https://github.com/HoGentTIN/latex-hogent-bachproef/tree/main/fonts) die gebruikt worden in de LaTeX-sjablonen en de HOGENT huisstijl. Je kan deze vinden in de Github-repo met het LaTeX-sjabloon voor de bachelorproef. Instructies voor installatie staan in de [README](https://github.com/HoGentTIN/latex-hogent-bachproef#lettertypes).
+    - Montserrat (officieel hoofdlettertype van de HOGENT huisstijl)
+    - Fira Code (broncode en andere monogespatieerde tekst)
+    - Fira Math (wiskundige formules)
 
 ### Windows
 
@@ -69,7 +73,7 @@ sudo dpkg -i gitkraken-amd64.deb  # Grafische Git client (optioneel)
 sudo dpkg -i ./code_*.deb   # VS Code
 ```
 
-De **TeX live** distributie is enorm uitgebreid en werd onderverdeeld in verschillende packages. `texlive` is de basisinstallatie, `texlive-full` de complete distributie (incl. onderdelen die jij nooit nodig zult hebben). Je kan dus kiezen: ofwel installer je TeX live volledig, ofwel de basisinstallatie, aangevuld met de extra's die je nodig hebt, bv. `texlive-science`, `texlive-xetex`, enz. Voor een volledig overzicht van wat beschikbaar is kan je `apt search texlive` uitproberen. Je zal verder moeten ondervinden wat je precies nodig hebt en wat je eventueel nog extra moet installeren.
+De **TeX live** distributie is enorm uitgebreid en werd onderverdeeld in verschillende packages. `texlive` is de basisinstallatie, `texlive-full` de complete distributie (incl. onderdelen die jij nooit nodig zult hebben). Je kan dus kiezen: ofwel installeer je TeX live volledig, ofwel de basisinstallatie, aangevuld met de extra's die je nodig hebt, bv. `texlive-science`, `texlive-xetex`, enz. Voor een volledig overzicht van wat beschikbaar is kan je `apt search texlive` uitproberen. Je zal verder moeten ondervinden wat je precies nodig hebt en wat je eventueel nog extra moet installeren.
 
 ## Configuratie Git, Github
 
@@ -121,15 +125,15 @@ LaTeX bestaat al enkele decennia. Waar het vroeger enkel mogelijk was om in een 
 Controleer deze instellingen via menu-item *Options > Configure TeXstudio*
 
 - Build:
-  - Default Compiler: **XeLaTeX** (UTF-8 compatibel, mogelijkheid om TTF-lettertypes te gebruiken, enz.) in plaats van PDFLaTeX (enkel ASCII, PostScript lettertypes, enz.)
-  - Default Bibliography tool: **`biber`** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geep APA-referenties, ...)
+    - Default Compiler: **XeLaTeX** (UTF-8 compatibel, mogelijkheid om TTF-lettertypes te gebruiken, enz.) in plaats van PDFLaTeX (enkel ASCII, PostScript lettertypes, enz.)
+    - Default Bibliography tool: **`biber`** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geep APA-referenties, ...)
 - Commands:
-  - XeLaTeX: `xelatex -synctex=1 -interaction=nonstopmode -shell-escape %.tex` (voeg de optie `-shell-escape` toe)
+    - XeLaTeX: `xelatex -synctex=1 -interaction=nonstopmode -shell-escape %.tex` (voeg de optie `-shell-escape` toe)
 - Editor:
-  - Indentation mode: *Indent and Unindent Automatically*
-  - Replace Indentation Tab by Spaces: *Aanvinken*
-  - Replace Tab in Text by spaces: *Aanvinken*
-  - Replace Double Quotes: *English Quotes: ``''*
+    - Indentation mode: *Indent and Unindent Automatically*
+    - Replace Indentation Tab by Spaces: *Aanvinken*
+    - Replace Tab in Text by spaces: *Aanvinken*
+    - Replace Double Quotes: *English Quotes: ``''*
 
 Om te testen of TeXStudio goed werkt, kan je het sjabloon voor de paper ( `paper/FamilienaamVoornaamJaarRM.tex`) gebruiken. Verander eerste de bestandsnaam in je eigen naam (familienaam eerst) en het jaartal (bv. `DeSmetJan2022RM.tex`).
 
