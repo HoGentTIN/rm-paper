@@ -115,6 +115,7 @@ We gaan er van uit dat je met Git/Github kan werken! Enkele aanbevelingen.
 - Creëer [**atomaire commits**](https://dev.to/cbillowes/why-i-create-atomic-commits-in-git-kfi). Je github-repository is een backup waarmee je kan vermijden dat je werk verloren gaat.
 - Voorzie je commits van een duidelijke beschrijving in de [**commit messsage**](https://cbea.ms/git-commit/).
 - De standaard voor opgemaakte tekst op Github is [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Neem de tijd om correcte **Markdown-documenten** te leren schrijven en hoe de opmaak te bekijken (in een editor of op Github).
+    - In VS Code kan je de plugins [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) en [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) installeren om de ervaring van het schrijven van Markdown-documenten te verbeteren. Gebruik de shortcut `Ctrl+Shift+V` om een preview te zien van het document zoals het op Github zou gerenderd worden in HTML.
 
 ## LaTeX
 
