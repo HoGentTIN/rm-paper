@@ -1,0 +1,100 @@
+%==============================================================================
+% Voorbeeld hogent-article: onderzoeksvoorstel bachproef
+%==============================================================================
+
+\documentclass{hogent-article}
+
+\usepackage{lipsum} % Voor vultekst
+
+% Invoegen bibliografiebestand
+\addbibresource{references.bib}
+
+% Informatie over de opleiding, het vak en soort opdracht
+\studyprogramme{Professionele bachelor toegepaste informatica}
+\course{Research Methods}
+\assignmenttype{Paper: Onderzoeksvoorstel}
+\academicyear{2022-2023} % TODO: pas het academiejaar aan
+
+% TODO (fase 1): Werktitel
+\title{Werktitel van het voorstel}
+
+% TODO (fase 1): Studentnaam en emailadres invullen
+\author{Ernst Aarden}
+\email{ernst.aarden@student.hogent.be}
+
+% TODO (fase 1): Medestudent
+% Schrijf je het voorstel in samenwerking met een medestudent? Geef dan de naam
+% en emailadres hier. Als je het voorstel alleen schrijft, verwijder dan deze
+% regels of zet ze in commentaar.
+\author{Yasmine Alaoui}
+\email{yasmine.alaoui@student.hogent.be}
+
+% TODO (fase 1): Geef hier de link naar jullie Github-repository
+\projectrepo{https://github.com/hogenttin/rm-2223-reponame}
+
+% Binnen welke specialisatierichting uit 3TI situeert dit onderzoek zich?
+% Kies uit deze lijst:
+%
+% - Mobile \& Enterprise development
+% - AI \& Data Engineering
+% - Functional \& Business Analysis
+% - System \& Network Administrator
+% - Mainframe Expert
+% - Als het onderzoek niet past binnen een van deze domeinen specifieer je deze
+%   zelf
+%
+\specialisation{Mobile \& Enterprise development}
+% Geef hier enkele sleutelwoorden die je onderwerp beschrijven
+\keywords{Scheme, World Wide Web, $\lambda$-calculus}
+
+\begin{document}
+
+\begin{abstract}
+  Hier neem je de abstract van je onderzoeksvoorstel over, als een doorlopende tekst van één paragraaf.
+\end{abstract}
+
+\tableofcontents
+
+\section{Inleiding}%
+\label{sec:inleiding}
+
+% TODO: (fase 1) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
+
+\lipsum[1-3]
+
+\section{Overzicht literatuur}%
+\label{sec:literatuur}
+
+% TODO: (fase 4) schrijf de literatuurstudie uit en gebruik waar gepast referenties naar de vakliteratuur.
+
+% Refereren naar de literatuur kan met:
+% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
+% \textcite{BIBTEXKEY} -> Auteur (jaartal)
+Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
+
+\lipsum[4-9]
+
+\section{Methodologie}%
+\label{sec:methodologie}
+
+% TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+
+\lipsum[10-12]
+
+\section{Verwachte resultaten}%
+\label{sec:verwachte-resultaten}
+
+% TODO: (fase 6) beschrijf wat je verwacht uit je onderzoek en waarom (bv. volgens je literatuuronderzoek is softwarepakket A het meest gebruikte en denk je dat het voor deze casus ook het meest geschikt zal zijn). Natuurlijk kan je niet in de toekomst kijken en mag je geen alternatieve mogelijkheden uitsluiten. In de praktijk gebeurt het ook vaak dat een onderzoek tot verrassende resultaten leidt, dat maakt het proces nog interessanter!
+
+\lipsum[14-18]
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: (fase 4) de gerefereerde werken moeten in BibTeX-bestand
+% bibliografie.bib voorkomen. Gebruik JabRef om je bibliografie bij te
+% houden.
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
