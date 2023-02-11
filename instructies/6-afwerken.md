@@ -1,6 +1,6 @@
 # Stap 6. Afwerken
 
-Werk de paper volledig af!
+Werk het voorstel volledig af!
 
 - Vervolledig de tekst en zorg dat alle nodige onderdelen aanwezig zijn.
 - Schrijf een samenvatting. Let er op dat een samenvatting **geen inleiding** is, maar dat je de *volledige tekst* synthetiseert.

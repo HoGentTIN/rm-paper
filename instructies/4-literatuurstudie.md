@@ -4,7 +4,7 @@ In deze fase verwerk je de gevonden bronnen tot een doorlopende inleidende tekst
 
 Laat dit niet liggen, anders kom je in de problemen met de deadlines van opdrachten die meer naar het einde van het semester liggen!
 
-- Open het bestand `paper/bibliografie.bib` met JabRef.
+- Open het bestand `voorstel/bibliografie.bib` met JabRef.
 - Voeg alle gevonden bronnen toe aan de bibliografische databank. Let daarbij goed op dat:
     - Alle nodige informatie aanwezig is (cfr. tabblad Required Fields), bv.
         - Electronic/Online/WWW-bronnen moeten een "url" en "urldate" hebben!
