@@ -1,4 +1,4 @@
-# Fase 2. Een onderzoeksvraag formuleren
+# Fase 1. Een onderzoeksvraag formuleren
 
 De opdracht in deze fase is makkelijk te beschrijven, maar misschien niet zo eenvoudig uit te voeren!
 
