@@ -33,7 +33,7 @@ Open een Powershell of CMD terminal als Administrator en selecteer uit onderstaa
 choco install -y git        # CLI client
 choco install -y gitkraken  # Grafische Git client (optioneel)
 choco install -y miktex     # LaTeX distributie
-choco install -y texlive --params "'/collections:xetex'"    # Alternatieve LaTeX distro (kies 1 van de 2!)
+choco install -y texlive --params "'/collections:fontsrecommended,latexrecommended,xetex'"    # Alternatieve LaTeX distro (kies 1 van de 2!)
 choco install -y texstudio  # Complete LaTeX IDE
 choco install -y vscode     # Visual Studio Code (optioneel)
 choco install -y JabRef     # Bibliografische databank
@@ -157,7 +157,7 @@ Installeer in elk geval [LaTeX Workshop](https://marketplace.visualstudio.com/it
 Binnen de LaTeX-wereld is er een apart subsysteem voor het correct opmaken van een referentielijst of bibliografie. Het "oude" systeem heet BibTeX en is vaak de standaard in LaTeX-editors. Het sjabloon voor de paper en ook dat voor de bachelorproef zijn echter gebaseerd op een modernere vervanger, BibLaTeX/biber. Pas Jabref aan om standaard het laatste te gebruiken.
 
 - Kies in het menu voor *Options > Preferences > General* en kies onderaan voor de optie "Default bibliography mode" voor "biblatex".
-- Kies in het *Preferences*-venster voor de categorie *File* en geef een directory op voor het bijhouden van PDFs van de gevonden bronnen onder *Main file directory*. Het is heel interessant om de gevonden artikels te downloaden en onder die directory bij te houden. Nog beter is om als naam van het bestand de BibTeX key te nemen (typisch naam van de eerste auteur + jaartal, bv. Knuth1998.pdf). Je kan het bestand dan makkelijk openen vanuit Jabref.
+- Kies in het *Preferences*-venster voor de categorie *Linked files* en geef een directory op voor het bijhouden van PDFs van de gevonden bronnen onder *Main file directory*. Het is heel interessant om de gevonden artikels te downloaden en onder die directory bij te houden. Nog beter is om als naam van het bestand de BibTeX key te nemen (typisch naam van de eerste auteur + jaartal, bv. Knuth1998.pdf). Je kan het bestand dan makkelijk openen vanuit Jabref.
 
 ## Onderwerp uitschrijven
 
