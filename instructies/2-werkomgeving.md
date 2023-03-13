@@ -32,8 +32,8 @@ Open een Powershell of CMD terminal als Administrator en selecteer uit onderstaa
 ```powershell
 choco install -y git        # CLI client
 choco install -y gitkraken  # Grafische Git client (optioneel)
-choco install -y miktex     # LaTeX distributie
-choco install -y texlive --params "'/collections:fontsrecommended,latexrecommended,xetex'"    # Alternatieve LaTeX distro (kies 1 van de 2!)
+choco install -y miktex     # LaTeX distributie (kies deze OF onderstaande!)
+choco install texlive --params="'/collections:fontsrecommended,latex,latexrecommended,langeuropean,pictures,xetex'"    # Alternatieve LaTeX distro
 choco install -y texstudio  # Complete LaTeX IDE
 choco install -y vscode     # Visual Studio Code (optioneel)
 choco install -y JabRef     # Bibliografische databank
