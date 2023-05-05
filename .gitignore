@@ -129,3 +129,6 @@ sympy-plots-for-*.tex/
 
 # Vim-LaTeX
 *.latexmain
+
+# Output directory
+out/
