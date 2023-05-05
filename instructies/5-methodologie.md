@@ -41,7 +41,7 @@ Een Gantt-chart toont ook hoe je de verschillende fasen in de tijd gaat inplanne
 
 ```mermaid
 gantt
-    Literatuur       : task1, 2024-02-12,2024-04-07
+    Literatuur       : task1, 2024-02-12, 28d
     Requirements     : task2, 2024-02-19, 14d
     Long list        : task3, 2024-02-19, 21d
     Short list       : task4, after task3, 14d
