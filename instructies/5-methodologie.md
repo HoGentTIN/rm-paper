@@ -10,11 +10,31 @@
 
     - Als je een experiment gaat uitvoeren, beschrijf dan de opstelling en welke data je precies gaat verzamelen.
 
-    - Beschrijf ook het eindresultaat of deliverable van elke fase. Welk tastbaar resultaat heeft elke fase? Dat kan bv. een samenvatting zijn van de vakliteratuur, een lijst met requirements gestructureerd volgens de MoSCoW-methode, een proefopstelling bestaande uit virtuele machines, enz.
+    - Beschrijf ook het eindresultaat of **deliverable** van elke fase. Welk tastbaar resultaat heeft elke fase? Dat kan bv. een samenvatting zijn van de vakliteratuur, een lijst met requirements gestructureerd volgens de MoSCoW-methode, een proefopstelling bestaande uit virtuele machines, enz.
 
-- Probeer een timing uit te denken voor elke fase. Een normaal tijdverloop van de bachelorproef is starten bij het begin van semester 2 en indienen op vrijdag van de eerste examenweek.
+    - Vermijd het "watervalmodel", maar hanteer een iteratieve aanpak.
 
-    - Het is wellicht nuttig in termen van weken te denken. Hou er rekening mee dat je in het modeltraject typisch 4 weekdagen aan je stage besteedt en 1 dag aan je BP.
+    - Als je aan ChatGPT vraagt om je methodologie uit te schrijven zal het resultaat veel te vaag zijn en dus niet bruikbaar (en bovendien leiden tot een 0 voor de paper). Schrijf de tekst dus zelf!
+
+- Probeer een timing uit te denken voor elke fase/deliverable. Geef jezelf een concrete deadline voor elke deliverable. 
+
+    - Een aantal deadlines worden al vastgelegd. In de veronderstelling dat je deelneemt aan de BP als jaarvak, zijn dat:
+
+        - Einde lesweek 12 (sem 1): indienen onderzoeksvoorstel
+
+        - Einde lesweek 1 (sem2): verbeterd onderzoeksvoorstel indienen
+
+        - Einde lesweek 6: draftversie literatuuroverzicht
+
+        - Einde lesweek 11: draftversie bachelorproef
+
+        - Einde lesweek 13: finale versie bachelorproef
+
+    - Let op bij het beschrijven van hoe lang een fase zou duren en wees daar heel duidelijk in. Hou er rekening mee dat je in het modeltraject typisch 4 weekdagen aan je stage besteedt en 1 dag aan je BP.
+    
+        - Als je bv schrijft dat je "1 week" werkt aan een fase, betekent dat dan 1 werkdag of 5 werkdagen verspreid over 5 weken? Of ga je ook in het weekend werken?
+
+        - Voorzie voldoende tijd voor de belangrijkste fasen in het onderzoek, zoals het implementeren van een PoC en het uitvoeren van experimenten.
 
 - Visualiseer het plan van aanpak met een flowchart of Gantt-diagram.
 
@@ -24,10 +44,10 @@
 
 ## Voorbeelden
 
-Met een flowchart kan je de afhankelijkheden tussen fasen visualiseren
+Met een [flowchart](https://mermaid.js.org/syntax/flowchart.html) kan je de afhankelijkheden tussen fasen visualiseren
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Literatuur] --> B[Requirements];
     A --> C[Long list];
     B --> D[Short list];
@@ -37,7 +57,7 @@ flowchart TD
     F --> G[Scriptie];
 ```
 
-Een Gantt-chart toont ook hoe je de verschillende fasen in de tijd gaat inplannen. Hier zie je ook dat sommige fasen kunnen overlappen (zoals hier de literatuurstudie) of parallel lopen.
+Een [Gantt-chart](https://mermaid.js.org/syntax/gantt.html) toont ook hoe je de verschillende fasen in de tijd gaat inplannen. Hier zie je ook dat sommige fasen kunnen overlappen (zoals hier de literatuurstudie) of parallel lopen.
 
 ```mermaid
 gantt
@@ -49,3 +69,16 @@ gantt
     Conclusies       : task6, after task5, 14d
     Scriptie         : task7, after task6, 14d
 ```
+
+**Opmerking:** Dit zijn zeer vereenvoudigde voorbeelden. We verwachten dat je deze zelf opmaakt specifiek voor je eigen methodologie. In de Gantt-chart zijn bijvoorbeeld geen milestones (deliverables) opgenomen en die kan je best toevoegen.
+
+## Checklist
+
+- [ ] Het onderzoek is opgesplitst in verschillende fasen
+- [ ] Voor elke fase is er een:
+    - Concrete *deliverable* (bv. een specifiek hoofdstuk van de bachelorproeftekst, een werkende proefopstelling, ...)
+    - *Deadline*
+    - *Concrete* beschrijving van wat je gaat doen
+- [ ] Het verloop van de fasen wordt gevisualiseerd ahv een flow- en/of Gantt-chart
+    - Fasen komen overeen met de beschrijving in de methodologie
+    - Gantt-chart bevat tussentijdse deadlines/milestones

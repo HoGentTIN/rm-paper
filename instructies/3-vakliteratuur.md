@@ -11,4 +11,4 @@ In de vorige fase heb je een onderwerp gekozen, de bedoeling is om daar nu infor
     - Een blog-artikel door een vakexpert
     - Niet enkel Nederlands, maar ook (en vooral) Engelstalige bronnen
     - ...
-- Wees kritisch! Doorstaan de gevonden bronnen de [CRAP-test](https://maken.wikiwijs.nl/bestanden/829924/hbo-ict%20craap%20test.pdf)?
+- Wees kritisch! Doorstaan de gevonden bronnen de CRAAP-test?

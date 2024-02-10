@@ -1,8 +1,8 @@
 # Fase 5. Methodologie
 
 - **Werktitel onderzoeksvoorstel:** VUL HIER JE TITEL IN
-- **Naam Student 1:** VOORNAAM FAMILIENAAM
-- **Naam Student 1:** VOORNAAM FAMILIENAAM (of verwijder deze lijn als je alleen werkt)
+- **Student 1:** FAMILIENAAM, VOORNAAM, KLASGROEP
+- **Student 2:** FAMILIENAAM, VOORNAAM, KLASGROEP (of verwijder deze lijn als je alleen werkt)
 - **URL Github repo:** <https://github.com/HoGentTIN/rm-2223-paper-rmAANVULLEN>
 
 ## Plan van aanpak
