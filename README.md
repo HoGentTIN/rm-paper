@@ -1,5 +1,10 @@
 # Research Methods - paper
 
+| Naam         | Voornaam  | Klasgroep | Github-gebruikersnaam                   |
+| :----------- | :-------- | :-------- | :-------------------------------------- |
+| FAMILIENAAM1 | Voornaam1 | G2.C1     | [UserName](https://github.com/UserName) |
+| FAMILIENAAM2 | Voornaam2 | G2.C1     | [UserName](https://github.com/UserName) |
+
 Deze Github-repository bevat al de nodige informatie i.v.m. de paper die je voor het vak Research Methods moet voorbereiden en schrijven.
 
 Het examencijfer voor het vak is voor 100% gebaseerd op deze paper, dus het is belangrijk dat je de instructies volgt en de taken zo goed mogelijk uitvoert. Tijdens de lessen krijg je ook de nodige uitleg om hiermee aan de slag te gaan.

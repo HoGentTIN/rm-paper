@@ -31,7 +31,7 @@ Voordat je Git gaat gebruiken op je laptop is het belangrijk om enkele **basisin
 
     Ga eens in de [documentatie](https://git-scm.com/book/nl/v2/Git-aanpassen-Git-configuratie) zoeken wat deze commando's precies doen.
 
-- Maak een kloon van je Github-repo op je laptop.
+- Maak een kloon van je Github-repo op je laptop en vul de tabel bovenaan het README.md-bestand aan met de correcte gegevens. Elk teamlid doet dit best apart om te controleren dat alles goed ingesteld is. Vermijd natuurlijk wel merge-conflicten! Commit, push naar Github en controleer of de wijzigingen correct op Github staan en dat de auteurs van de commits herkenbaar zijn.
 
 ### Aanbevelingen
 
