@@ -47,16 +47,16 @@ We gaan er van uit dat je met Git/Github kan werken! Enkele aanbevelingen.
 
 ### LaTeX-installatie testen
 
-Om te testen of LaTeX correct geïnstalleerd is, kan je het sjabloon voor de paper ( `paper/FamilienaamVoornaamJaarRM.tex`) gebruiken. Verander eerste de bestandsnaam in je eigen naam (familienaam eerst) en het jaartal (bv. `DeSmetJan2022RM.tex`).
+Om te testen of LaTeX correct geïnstalleerd is, kan je het sjabloon voor de paper ( `voorstel/FamilienaamVoornaamJaarRM.tex`) gebruiken. Kopieer het bestand naar een nieuw bestand met daarin de naam/namen van de auteur(s) en het jaartal verwerkt, bv. `AkinDeSmet2024` of `DeSmet2022RM.tex`.
 
 ## Onderwerp uitschrijven
 
-Als je in de vorige fase een definitief onderwerp gekozen hebt, kan je de inleiding van de paper schrijven in het LaTeX-document in de directory `paper/` (waarvan je de naam zou moeten aangepast hebben naar je eigen naam).
+Als je in de vorige fase een definitief onderwerp gekozen hebt, kan je in dat nieuwe bestand de inleiding van de paper schrijven.
 
 ## Checklist
 
-- [ ] De nodige software is geïnstalleerd.
+- [ ] De nodige software is geïnstalleerd: Git client, LaTeX compiler, LaTeX editor, JabRef.
 - [ ] De basisinstellingen van Git zijn waar nodig aangepast. Bij een commit naar Github is duidelijk wie de auteur is.
 - [ ] TeXstudio of VS Code zijn geconfigureerd voor gebruik.
 - [ ] Het sjabloon compileert zonder fouten, in de PDF is ook de (voorbeeld-)bibliografie opgenomen.
-- [ ] De inleiding van jouw onderwerp is geschreven.
+- [ ] De inleiding van jullie onderwerp is uitgeschreven.
