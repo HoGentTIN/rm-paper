@@ -4,7 +4,7 @@ In deze fase verwerk je de gevonden bronnen tot een doorlopende inleidende tekst
 
 Laat dit niet liggen, anders kom je in de problemen met de deadlines van opdrachten die meer naar het einde van het semester liggen! Op het einde van de paasvakantie zou deze fase nagenoeg afgewerkt moeten zijn.
 
-- Open het bestand `voorstel/bibliografie.bib` met JabRef.
+- Open het bestand `voorstel/references.bib` met JabRef.
 - Voeg alle gevonden bronnen toe aan de bibliografische databank. Let daarbij goed op dat:
     - Alle nodige informatie aanwezig is (cfr. tabblad Required Fields), bv.
         - Electronic/Online/WWW-bronnen moeten een "url" en "urldate" hebben!
@@ -17,9 +17,9 @@ Laat dit niet liggen, anders kom je in de problemen met de deadlines van opdrach
     - Hou ook extra informatie over de bron bij: de Abstract (inleidende paragraaf), sleutelwoorden, DOI-code, commentaar, enz.
     - Gebruik NERGENS voor LaTeX verboden lettertekens zoals &, %, enz. maar vervang deze door de respectievelijke commando's (bv. `\&`, `\%`). Zoniet zal je compilatiefouten krijgen.
     - Ruim URLs op! Verwijder onnodige toevoegingen zoals referer-info, highlighting-code, enz. Verwijs nooit naar illegale downloadsites!
-- Schrijf een inleidende tekst over het door jou gekozen bachelorproefonderwerp, op basis van de door jou gevonden bronnen. Doe dit meteen in het , in de daarvoor bestemde sectie. Verwijs waar het gepast is naar de bronnen met het juiste LaTeX-commando:
-    - `\autocite{Bibtexkey}` => (Auteur, jaartal)
-    - `\textcite{Bibtexkey}` => Auteur (jaartal)
+- Schrijf de literatuurstudie uit, d.w.z. een inleidende tekst over het door jou gekozen bachelorproefonderwerp, op basis van de door jou gevonden bronnen. Verwijs waar het gepast is naar de bronnen met het juiste LaTeX-commando:
+    - Referentie tussen haakjes: `\autocite{Bibtexkey}` => (Auteur, jaartal)
+    - Narratieve referentie: `\textcite{Bibtexkey}` => Auteur (jaartal)
 - Compileer het LaTeX-bestand regelmatig en controleer de uitvoer!
     - Is de tekst vlot leesbaar? Laat eventueel eens nalezen door iemand!
     - Zijn de referenties correct ingevoegd?

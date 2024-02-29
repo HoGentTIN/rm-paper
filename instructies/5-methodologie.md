@@ -14,15 +14,15 @@
 
     - Vermijd het "watervalmodel", maar hanteer een iteratieve aanpak.
 
-    - Als je aan ChatGPT vraagt om je methodologie uit te schrijven zal het resultaat veel te vaag zijn en dus niet bruikbaar (en bovendien leiden tot een 0 voor de paper). Schrijf de tekst dus zelf!
+    - Als je aan ChatGPT vraagt om je methodologie uit te schrijven zal het resultaat een vage woordenbrij zonder inhoud zijn en dus totaal onbruikbaar (en bovendien leiden tot een 0 voor de paper). Schrijf de tekst dus zelf!
 
-- Probeer een timing uit te denken voor elke fase/deliverable. Geef jezelf een concrete deadline voor elke deliverable. 
+- Probeer een timing uit te denken voor elke fase/deliverable. Geef jezelf een concrete deadline voor elke deliverable.
 
     - Een aantal deadlines worden al vastgelegd. In de veronderstelling dat je deelneemt aan de BP als jaarvak, zijn dat:
 
         - Einde lesweek 12 (sem 1): indienen onderzoeksvoorstel
 
-        - Einde lesweek 1 (sem2): verbeterd onderzoeksvoorstel indienen
+        - Einde lesweek 1 (sem2): verbeterd onderzoeksvoorstel indienen (na feedback door promotor)
 
         - Einde lesweek 6: draftversie literatuuroverzicht
 
@@ -31,7 +31,7 @@
         - Einde lesweek 13: finale versie bachelorproef
 
     - Let op bij het beschrijven van hoe lang een fase zou duren en wees daar heel duidelijk in. Hou er rekening mee dat je in het modeltraject typisch 4 weekdagen aan je stage besteedt en 1 dag aan je BP.
-    
+
         - Als je bv schrijft dat je "1 week" werkt aan een fase, betekent dat dan 1 werkdag of 5 werkdagen verspreid over 5 weken? Of ga je ook in het weekend werken?
 
         - Voorzie voldoende tijd voor de belangrijkste fasen in het onderzoek, zoals het implementeren van een PoC en het uitvoeren van experimenten.
@@ -40,7 +40,7 @@
 
     Je kan flowcharts, Gantt- of andere diagrammen in Mardown bewerken via [Mermaid](https://mermaid.js.org). In VS Code kan je hiervoor de [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) installeren.
 
-    Als je de afbeelding wilt gebruiken in je voorstel, kan je zoeken naar een tool om de code om te zetten in afbeeldingen, of je kan in de Preview een screenshot maken en die opslaan. De VS Code plugin [Markdown PDF Export](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) converteert ook Mermaid-diagrammen correct.
+    Als je de afbeelding wilt gebruiken in je voorstel, kan je zoeken naar een tool om de code om te zetten in afbeeldingen, of je kan in de Preview een screenshot maken en die opslaan. De VS Code plugin [Markdown PDF Export](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) converteert ook Mermaid-diagrammen correct. **Neem screenshots in light mode!** In dark mode is de tekst moeilijker leesbaar en dit past ook qua stijl niet de rest van het document.
 
 ## Voorbeelden
 
