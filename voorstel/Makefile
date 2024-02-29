@@ -38,18 +38,8 @@ all: $(pdfs) ## Compile all LaTeX files (see list below)
 	$(latex_cmd) $<
 
 clean: ## Delete LaTeX auxiliary files
-	rm -vf "$(output_dir)"/*.{bak,aux,log,nav,out,snm,ptc,toc,bbl,blg,idx,ilg,ind,tcp,vrb,tps,lof,log,lol,lot,synctex.gz,fls,fdb_latexmk,bcf,run.xml,xdv}
+	rm -vf "$(output_dir)"/*.aux "$(output_dir)"/*.bak "$(output_dir)"/*.bbl "$(output_dir)"/*.bcf "$(output_dir)"/*.blg "$(output_dir)"/*.fdb_latexmk "$(output_dir)"/*.fls "$(output_dir)"/*.idx "$(output_dir)"/*.ilg "$(output_dir)"/*.ind "$(output_dir)"/*.lof "$(output_dir)"/*.log "$(output_dir)"/*.lol "$(output_dir)"/*.lot "$(output_dir)"/*.nav "$(output_dir)"/*.out "$(output_dir)"/*.ptc "$(output_dir)"/*.run.xml "$(output_dir)"/*.snm "$(output_dir)"/*.synctex.gz "$(output_dir)"/*.tcp "$(output_dir)"/*.toc "$(output_dir)"/*.tps "$(output_dir)"/*.vrb "$(output_dir)"/*.xdv 
 	rm -vrf "$(output_dir)"/_minted*
 
 mrproper: clean ## Delete LaTeX auxiliary files and PDFs
 	rm -v "$(output_dir)"/*.pdf
-
-install: ## Install the class file and template in the user's home directory
-# Pandoc template
-	mkdir -pv "$(pandoc_templates)"
-	cp -v pandoc/hogent-article.latex "$(pandoc_templates)"
-# Article class file (install only if texmf directory exists)
-	[ -d "$(texmf_home)" ] && mkdir -pv "$(latex_install_dir)"
-	[ -d "$(texmf_home)" ] && cp hogent-article.cls "$(latex_install_dir)"
-	[ -d "$(texmf_home)" ] && cp img/HOGENT_Logo_Pos_rgb.png "$(latex_install_dir)"
-	[ -d "$(texmf_home)" ] && texhash "$(texmf_home)"
