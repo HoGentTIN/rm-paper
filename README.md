@@ -5,7 +5,7 @@
 | FAMILIENAAM1 | Voornaam1 | G2.C1     | [UserName](https://github.com/UserName) |
 | FAMILIENAAM2 | Voornaam2 | G2.C1     | [UserName](https://github.com/UserName) |
 
-Deze Github-repository bevat al de nodige informatie i.v.m. de paper die je voor het vak Research Methods moet voorbereiden en schrijven.
+Deze Github-repository bevat al de nodige informatie i.v.m. de paper die je voor het vak Research Methods moet voorbereiden en schrijven. **LET OP! Zorg dat je een backup neemt van de inhoud van deze repository voor het einde van het academiejaar! Bij de opstart van het vak volgend jaar zullen al deze repositories verwijderd worden om plaats te maken voor de nieuwe!**
 
 Het examencijfer voor het vak is voor 100% gebaseerd op deze paper, dus het is belangrijk dat je de instructies volgt en de taken zo goed mogelijk uitvoert. Tijdens de lessen krijg je ook de nodige uitleg om hiermee aan de slag te gaan.
 
