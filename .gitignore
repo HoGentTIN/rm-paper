@@ -15,6 +15,7 @@
 *.fls
 *.out
 *.toc
+*.xdv
 
 ## Intermediate documents:
 *.dvi
