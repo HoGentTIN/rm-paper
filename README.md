@@ -27,4 +27,8 @@ Qua timing moet je voor elke fase een tweetal weken rekenen. Het meeste werk zit
 
 De directory [notas](notas/) bevat enkele Markdown-bestanden die je kan gebruiken om losse nota's bij te houden. We hebben er enkele toegevoegd als voorbeeld voor de fasen waar het zeker zin heeft, maar je mag er uiteraard zelf ook nieuwe toevoegen.
 
-De directory [paper](paper/) bevat de LaTeX-broncode voor de te schrijven paper met een voorstel van een bachelorproefonderwerp. Het bestand `FamilienaamVoornaamJaar.tex` moet je hernoemen naar je eigen naam en het huidige jaar voordat je er begint in te schrijven. Het bestand `references.bib` is een bibliografische databank die je kan openen met JabRef. Als je afbeeldingen wil invoegen in de paper, dan kan je die opslaan in de subdirectory `img/`.
+De directory [paper](paper/) bevat de LaTeX-broncode voor de te schrijven paper met een voorstel van een bachelorproefonderwerp. Kopieer het bestand `FamilienaamVoornaamJaarRM.tex` naar een nieuw bestand met je eigen naam en het huidige jaar voordat je er begint in te schrijven. Behoud het sjabloonbestand, want het staat vol met handige tips en voorbeelden. Als je afbeeldingen wil invoegen in de paper, dan kan je die opslaan in de subdirectory `img/`.
+
+Het bestand `references.bib` is een bibliografische databank die je kan openen met JabRef. Gebruik [bibla](https://github.com/MrClassicT/bibla), een BibLaTeX linter, om je bibliografische referenties te controleren op vaak voorkomende fouten.
+
+Tot slot: **begin meteen met het uitschrijven van je voorstel in LaTeX en bereid het niet eerst voor in Word.** Zo raak je er sneller vertrouwd mee en heb je minder kans op problemen en stress met de conversie van Word naar LaTeX vlak voor de deadline.
